@@ -1,4 +1,6 @@
 # Real-Estate-Management-System-using-NodeJS-Express-MongoDB
+[![forthebadge](https://forthebadge.com/images/badges/uses-html.svg)](https://forthebadge.com)[![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com)
+
 ### The real estate management system is a web application designed for any real estate agency, which has an intuitive and effortless to use to interface for both its agency owner and its customers. Here owners can log in with their given ID and password in order to manage the website. The owner can post the property that needs to be sold by the agency in the property listings. The customers of the agency can register and log into the website. Here the customers can browse through various properties listed on the website which enable the customer to find the property as per his/her requirements
 
 ## ABSTRACT
@@ -12,3 +14,9 @@ The real estate management system is a web application designed for any real est
 
 ### ER DIAGRAM FOR DATABASE
 ![er diagram](https://github.com/Defcon27/Real-Estate-Management-System-using-NodeJS-Express-MongoDB/blob/master/scrshts/er.jpg)
+
+### NOTE:
+- Install all the dependencies with the `Node Package Manager(npm)` listed in the `dependencies.json` file
+- Run `app.js` to initiate the website
+- Port of running server is `3000`
+- `MongoDB` connect automatically to `27017`
