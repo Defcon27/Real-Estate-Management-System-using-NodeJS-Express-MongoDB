@@ -1,0 +1,66 @@
+[{
+	"_id": {
+		"$oid": "5dbeed0575aaff82a583d6bb"
+	},
+	"cancellationid": 7211,
+	"propertyname": "Aparna towers",
+	"customername": "Asley",
+	"cancellationdate": {
+		"$date": "2016-05-14T01:33:20.201Z"
+	},
+	"amtrefund": 60000,
+	"referencenum": "DDTYU2154"
+},
+{
+	"_id": {
+		"$oid": "5dbeed0575aaff82a583d6be"
+	},
+	"cancellationid": 7212,
+	"propertyname": "Modern appartments",
+	"customername": "Chitresh",
+	"cancellationdate": {
+		"$date": "2017-05-06T01:25:20.201Z"
+	},
+	"amtrefund": 100000,
+	"referencenum": "DSSRA1319"
+},
+{
+	"_id": {
+		"$oid": "5dbeed0575aaff82a583d6c1"
+	},
+	"cancellationid": 7213,
+	"propertyname": "MyHome Villas",
+	"customername": "Arjun",
+	"cancellationdate": {
+		"$date": "2015-11-10T07:29:20.201Z"
+	},
+	"amtrefund": 200000,
+	"referencenum": "DOOPA0984"
+},
+{
+	"_id": {
+		"$oid": "5dbeed0575aaff82a583d6c4"
+	},
+	"cancellationid": 7214,
+	"propertyname": "Lodha towers",
+	"customername": "Manas",
+	"cancellationdate": {
+		"$date": "2016-05-23T01:42:20.201Z"
+	},
+	"amtrefund": 70000,
+	"referencenum": "DTUYA7560"
+},
+{
+	"_id": {
+		"$oid": "5dbeed0575aaff82a583d6c7"
+	},
+	"cancellationid": 7215,
+	"propertyname": "Jains towers",
+	"customername": "Anand",
+	"cancellationdate": {
+		"$date": "2018-02-09T22:29:20.201Z"
+	},
+	"amtrefund": 800000,
+	"referencenum": "DPYUA3568"
+}]
+

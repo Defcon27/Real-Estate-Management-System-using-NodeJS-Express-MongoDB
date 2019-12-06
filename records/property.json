@@ -1,0 +1,261 @@
+[{
+	"_id": {
+		"$oid": "5dbe935f75aaff82a583c4aa"
+	},
+	"propertyid": 3210,
+	"propertyname": "Aparna towers",
+	"propertystatus": "Ready to occupy",
+	"propertytype": "Residential Appartments",
+	"propertybhk": "3bhk",
+	"area": 1000,
+	"price": 8000000,
+	"location": "Hyderabad"
+},
+{
+	"_id": {
+		"$oid": "5dbe935f75aaff82a583c4ad"
+	},
+	"propertyid": 3211,
+	"propertyname": "NCC Villas",
+	"propertystatus": "Under construction",
+	"propertytype": "Independant house/Villa",
+	"propertybhk": "5bhk",
+	"area": 3050,
+	"price": 20000000,
+	"location": "Pune"
+},
+{
+	"_id": {
+		"$oid": "5dbe935f75aaff82a583c4b0"
+	},
+	"propertyid": 3212,
+	"propertyname": "JP towers",
+	"propertystatus": "Upcoming",
+	"propertytype": "Residential Appartments",
+	"propertybhk": "2bhk",
+	"area": 850,
+	"price": 5000000,
+	"location": "Mumbai"
+},
+{
+	"_id": {
+		"$oid": "5dbe935f75aaff82a583c4b3"
+	},
+	"propertyid": 3213,
+	"propertyname": "NCC appartments",
+	"propertystatus": "Ready to occupy",
+	"propertytype": "Residential Appartments",
+	"propertybhk": "3bhk",
+	"area": 990,
+	"price": 8000000,
+	"location": "Banglore"
+},
+{
+	"_id": {
+		"$oid": "5dbe935f75aaff82a583c4b6"
+	},
+	"propertyid": 3214,
+	"propertyname": "Modern appartments",
+	"propertystatus": "Under construction",
+	"propertytype": "Residential Appartments",
+	"propertybhk": "3bhk",
+	"area": 1020,
+	"price": 9500000,
+	"location": "Chennai"
+},
+{
+	"_id": {
+		"$oid": "5dbe935f75aaff82a583c4b9"
+	},
+	"propertyid": 3215,
+	"propertyname": "Alps",
+	"propertystatus": "Upcoming",
+	"propertytype": "Independant house/Villa",
+	"propertybhk": "4bhk",
+	"area": 2500,
+	"price": 8800000,
+	"location": "Delhi"
+},
+{
+	"_id": {
+		"$oid": "5dbe935f75aaff82a583c4bc"
+	},
+	"propertyid": 3216,
+	"propertyname": "Ashville towers",
+	"propertystatus": "Ready to occupy",
+	"propertytype": "Residential Appartments",
+	"propertybhk": "4bhk",
+	"area": 1900,
+	"price": 7000000,
+	"location": "Noida"
+},
+{
+	"_id": {
+		"$oid": "5dbe935f75aaff82a583c4bf"
+	},
+	"propertyid": 3217,
+	"propertyname": "Bayou Oaks",
+	"propertystatus": "Under construction",
+	"propertytype": "Residential Appartments",
+	"propertybhk": "2bhk",
+	"area": 600,
+	"price": 8000000,
+	"location": "Haryana"
+},
+{
+	"_id": {
+		"$oid": "5dbe935f75aaff82a583c4c2"
+	},
+	"propertyid": 3218,
+	"propertyname": "Aliens villas",
+	"propertystatus": "Upcoming",
+	"propertytype": "Independant house/Villa",
+	"propertybhk": "3bhk",
+	"area": 990,
+	"price": 9000000,
+	"location": "Cochin"
+},
+{
+	"_id": {
+		"$oid": "5dbe935f75aaff82a583c4c5"
+	},
+	"propertyid": 3219,
+	"propertyname": "Aliens towers",
+	"propertystatus": "Ready to occupy",
+	"propertytype": "Residential Appartments",
+	"propertybhk": "2bhk",
+	"area": 660,
+	"price": 6500000,
+	"location": "Udaipur"
+},
+{
+	"_id": {
+		"$oid": "5dbe935f75aaff82a583c4c8"
+	},
+	"propertyid": 3220,
+	"propertyname": "MyHome Villas",
+	"propertystatus": "Under construction",
+	"propertytype": "Independant house/Villa",
+	"propertybhk": "3bhk",
+	"area": 890,
+	"price": 9800000,
+	"location": "Jaipur"
+},
+{
+	"_id": {
+		"$oid": "5dbe935f75aaff82a583c4cb"
+	},
+	"propertyid": 3221,
+	"propertyname": "MyHome apartments",
+	"propertystatus": "Upcoming",
+	"propertytype": "Residential Appartments",
+	"propertybhk": "3bhk",
+	"area": 1400,
+	"price": 10000000,
+	"location": "Hyderabad"
+},
+{
+	"_id": {
+		"$oid": "5dbe935f75aaff82a583c4ce"
+	},
+	"propertyid": 3222,
+	"propertyname": "Jains villas",
+	"propertystatus": "Ready to occupy",
+	"propertytype": "Independant house/Villa",
+	"propertybhk": "3bhk",
+	"area": 1000,
+	"price": 8000000,
+	"location": "Mumbai"
+},
+{
+	"_id": {
+		"$oid": "5dbe935f75aaff82a583c4d1"
+	},
+	"propertyid": 3223,
+	"propertyname": "Jewel Towers",
+	"propertystatus": "Under construction",
+	"propertytype": "Residential Appartments",
+	"propertybhk": "4bhk",
+	"area": 1000,
+	"price": 6800000,
+	"location": "Chennai"
+},
+{
+	"_id": {
+		"$oid": "5dbe935f75aaff82a583c4d4"
+	},
+	"propertyid": 3224,
+	"propertyname": "Hill Crest",
+	"propertystatus": "Upcoming",
+	"propertytype": "Independant house/Villa",
+	"propertybhk": "4bhk",
+	"area": 2000,
+	"price": 8000000,
+	"location": "Jaipur"
+},
+{
+	"_id": {
+		"$oid": "5dbe935f75aaff82a583c4d7"
+	},
+	"propertyid": 3225,
+	"propertyname": "Lodha towers",
+	"propertystatus": "Ready to occupy",
+	"propertytype": "Residential Apartments",
+	"propertybhk": "2bhk",
+	"area": 670,
+	"price": 4500000,
+	"location": "Noida"
+},
+{
+	"_id": {
+		"$oid": "5dbe935f75aaff82a583c4da"
+	},
+	"propertyid": 3226,
+	"propertyname": "Breeze appartments",
+	"propertystatus": "Under construction",
+	"propertytype": "Residential Appartments",
+	"propertybhk": "2bhk",
+	"area": 700,
+	"price": 6000000,
+	"location": "Hyderabad"
+},
+{
+	"_id": {
+		"$oid": "5dbe935f75aaff82a583c4dd"
+	},
+	"propertyid": 3227,
+	"propertyname": "Brook Meadows",
+	"propertystatus": "Upcoming",
+	"propertytype": "Independant house/Villa",
+	"propertybhk": "4bhk",
+	"area": 1080,
+	"price": 8000000,
+	"location": "Haryana"
+},
+{
+	"_id": {
+		"$oid": "5dbe935f75aaff82a583c4e0"
+	},
+	"propertyid": 3228,
+	"propertyname": "Aparna villas",
+	"propertystatus": "Ready to occupy",
+	"propertytype": "Independant house/Villa",
+	"propertybhk": "4bhk",
+	"area": 2550,
+	"price": 10000000,
+	"location": "Hyderabad"
+},
+{
+	"_id": {
+		"$oid": "5dbe935f75aaff82a583c4e3"
+	},
+	"propertyid": 3229,
+	"propertyname": "Jains towers",
+	"propertystatus": "Under construction",
+	"propertytype": "Residential Appartments",
+	"propertybhk": "2bhk",
+	"area": 770,
+	"price": 4000000,
+	"location": "Ghaziabad"
+}]
+

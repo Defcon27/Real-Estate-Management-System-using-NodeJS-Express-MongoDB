@@ -1,0 +1,252 @@
+[{
+	"_id": {
+		"$oid": "5dbed9f075aaff82a583d1e6"
+	},
+	"registrationid": 4211,
+	"propertyname": "Aparna towers",
+	"customername": "Asley",
+	"registrationdate": {
+		"$date": "2006-11-13T07:32:20.2Z"
+	},
+	"registrationstatus": "completed"
+},
+{
+	"_id": {
+		"$oid": "5dbed9f075aaff82a583d1e9"
+	},
+	"registrationid": 4212,
+	"propertyname": "NCC Villas",
+	"customername": "Koushik",
+	"registrationdate": {
+		"$date": "2010-02-05T22:25:20.201Z"
+	},
+	"registrationstatus": "completed"
+},
+{
+	"_id": {
+		"$oid": "5dbed9f075aaff82a583d1ec"
+	},
+	"registrationid": 4213,
+	"propertyname": "JP towers",
+	"customername": "Hemanth",
+	"registrationdate": {
+		"$date": "2009-03-11T23:31:20.2Z"
+	},
+	"registrationstatus": "Pending"
+},
+{
+	"_id": {
+		"$oid": "5dbed9f075aaff82a583d1ef"
+	},
+	"registrationid": 4214,
+	"propertyname": "NCC appartments",
+	"customername": "John",
+	"registrationdate": {
+		"$date": "2012-10-18T06:37:20.201Z"
+	},
+	"registrationstatus": "completed"
+},
+{
+	"_id": {
+		"$oid": "5dbed9f075aaff82a583d1f2"
+	},
+	"registrationid": 4215,
+	"propertyname": "Modern appartments",
+	"customername": "Chitresh",
+	"registrationdate": {
+		"$date": "2015-12-16T08:35:20.201Z"
+	},
+	"registrationstatus": "completed"
+},
+{
+	"_id": {
+		"$oid": "5dbed9f075aaff82a583d1f5"
+	},
+	"registrationid": 4216,
+	"propertyname": "Alps",
+	"customername": "Devang",
+	"registrationdate": {
+		"$date": "2003-11-11T07:30:20.2Z"
+	},
+	"registrationstatus": "Pending"
+},
+{
+	"_id": {
+		"$oid": "5dbed9f075aaff82a583d1f8"
+	},
+	"registrationid": 4217,
+	"propertyname": "Ashville towers",
+	"customername": "Yash",
+	"registrationdate": {
+		"$date": "2009-11-02T07:21:20.2Z"
+	},
+	"registrationstatus": "completed"
+},
+{
+	"_id": {
+		"$oid": "5dbed9f075aaff82a583d1fb"
+	},
+	"registrationid": 4218,
+	"propertyname": "Bayou Oaks",
+	"customername": "Pranav",
+	"registrationdate": {
+		"$date": "2015-12-16T08:35:20.201Z"
+	},
+	"registrationstatus": "completed"
+},
+{
+	"_id": {
+		"$oid": "5dbed9f075aaff82a583d1fe"
+	},
+	"registrationid": 4219,
+	"propertyname": "Aliens villas",
+	"customername": "Arshdeep",
+	"registrationdate": {
+		"$date": "2010-10-11T06:30:20.201Z"
+	},
+	"registrationstatus": "completed"
+},
+{
+	"_id": {
+		"$oid": "5dbed9f075aaff82a583d201"
+	},
+	"registrationid": 4220,
+	"propertyname": "Aliens towers",
+	"customername": "Sandeep",
+	"registrationdate": {
+		"$date": "2015-12-16T08:35:20.201Z"
+	},
+	"registrationstatus": "completed"
+},
+{
+	"_id": {
+		"$oid": "5dbed9f075aaff82a583d204"
+	},
+	"registrationid": 4221,
+	"propertyname": "MyHome Villas",
+	"customername": "Arjun",
+	"registrationdate": {
+		"$date": "2015-12-16T08:35:20.201Z"
+	},
+	"registrationstatus": "Pending"
+},
+{
+	"_id": {
+		"$oid": "5dbed9f075aaff82a583d207"
+	},
+	"registrationid": 4222,
+	"propertyname": "MyHome apartments",
+	"customername": "Siva",
+	"registrationdate": {
+		"$date": "2005-02-05T22:25:20.2Z"
+	},
+	"registrationstatus": "completed"
+},
+{
+	"_id": {
+		"$oid": "5dbed9f075aaff82a583d20a"
+	},
+	"registrationid": 4223,
+	"propertyname": "Jains villas",
+	"customername": "Shashank",
+	"registrationdate": {
+		"$date": "2012-05-15T01:34:20.201Z"
+	},
+	"registrationstatus": "completed"
+},
+{
+	"_id": {
+		"$oid": "5dbed9f075aaff82a583d20d"
+	},
+	"registrationid": 4224,
+	"propertyname": "Jewel Towers",
+	"customername": "Srikruth",
+	"registrationdate": {
+		"$date": "2018-03-19T23:39:20.201Z"
+	},
+	"registrationstatus": "Pending"
+},
+{
+	"_id": {
+		"$oid": "5dbed9f075aaff82a583d210"
+	},
+	"registrationid": 4225,
+	"propertyname": "Hill Crest",
+	"customername": "Abhishek",
+	"registrationdate": {
+		"$date": "2014-06-12T02:31:20.201Z"
+	},
+	"registrationstatus": "completed"
+},
+{
+	"_id": {
+		"$oid": "5dbed9f075aaff82a583d213"
+	},
+	"registrationid": 4226,
+	"propertyname": "Lodha towers",
+	"customername": "Manas",
+	"registrationdate": {
+		"$date": "2000-09-06T05:25:20.2Z"
+	},
+	"registrationstatus": "completed"
+},
+{
+	"_id": {
+		"$oid": "5dbed9f075aaff82a583d216"
+	},
+	"registrationid": 4227,
+	"propertyname": "Breeze appartments",
+	"customername": "Ronald",
+	"registrationdate": {
+		"$date": "2013-01-11T21:31:20.201Z"
+	},
+	"registrationstatus": "completed"
+},
+{
+	"_id": {
+		"$oid": "5dbed9f075aaff82a583d219"
+	},
+	"registrationid": 4228,
+	"propertyname": "Brook Meadows",
+	"customername": "Harry",
+	"registrationdate": {
+		"$date": "2012-11-18T07:37:20.201Z"
+	},
+	"registrationstatus": "completed"
+},
+{
+	"_id": {
+		"$oid": "5dbed9f075aaff82a583d21c"
+	},
+	"registrationid": 4229,
+	"propertyname": "Aparna villas",
+	"customername": "Dan",
+	"registrationdate": {
+		"$date": "2019-10-11T06:30:20.201Z"
+	},
+	"registrationstatus": "Pending"
+},
+{
+	"_id": {
+		"$oid": "5dbed9f075aaff82a583d21f"
+	},
+	"registrationid": 4230,
+	"propertyname": "Jains towers",
+	"customername": "Anand",
+	"registrationdate": {
+		"$date": "2019-02-18T22:38:20.201Z"
+	},
+	"registrationstatus": "Pending"
+},
+{
+	"_id": {
+		"$oid": "5dc38ea2438a2b2ba0e3031b"
+	},
+	"registrationid": 4112,
+	"propertyname": "Aparna",
+	"customername": "sujith",
+	"registrationdate": "2019-11-20",
+	"registrationstatus": "completed",
+	"__v": 0
+}]
+

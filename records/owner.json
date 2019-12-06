@@ -1,0 +1,36 @@
+[{
+	"_id": {
+		"$oid": "5dbc307d39d8ed1f99873e71"
+	},
+	"ownerid": 9999,
+	"ownerpassword": "password"
+},
+{
+	"_id": {
+		"$oid": "5dc300a981e0d3180cbb5213"
+	},
+	"ownerid": 538,
+	"ownerpassword": "password"
+},
+{
+	"_id": {
+		"$oid": "5dc379315d0bd5ca4b6254fc"
+	},
+	"ownerid": 561,
+	"ownerpassword": "password"
+},
+{
+	"_id": {
+		"$oid": "5dc379425d0bd5ca4b625505"
+	},
+	"ownerid": 562,
+	"ownerpassword": "password"
+},
+{
+	"_id": {
+		"$oid": "5dc379535d0bd5ca4b625509"
+	},
+	"ownerid": 249,
+	"ownerpassword": "password"
+}]
+

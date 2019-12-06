@@ -1,0 +1,371 @@
+[{
+	"_id": {
+		"$oid": "5dbd898e114d9131cbf5e4d5"
+	},
+	"customerid": 1101,
+	"customerpassword": "asley",
+	"firstname": "Asley",
+	"middlename": "Wessley",
+	"lastname": "Smith",
+	"dateofbirth": {
+		"$date": "1997-06-18T00:00:00Z"
+	},
+	"emailid": "wessleysmith@gmail.com",
+	"phonenumber": "9443915231",
+	"occupation": "Business",
+	"annualincome": 600000,
+	"address": "Wandaloore"
+},
+{
+	"_id": {
+		"$oid": "5dbd89a7114d9131cbf5e4dd"
+	},
+	"customerid": 1102,
+	"customerpassword": "john",
+	"firstname": "John",
+	"middlename": "foud",
+	"lastname": "Smith",
+	"dateofbirth": {
+		"$date": "1978-06-16T00:00:00Z"
+	},
+	"emailid": "johnsmith@gmail.com",
+	"phonenumber": 7538572978,
+	"occupation": "software developer",
+	"annualincome": 800000,
+	"address": "Banglore"
+},
+{
+	"_id": {
+		"$oid": "5dbd89b0114d9131cbf5e4e1"
+	},
+	"customerid": 1103,
+	"customerpassword": "dan",
+	"firstname": "Dan",
+	"middlename": "J",
+	"lastname": "Renolds",
+	"dateofbirth": {
+		"$date": "1974-11-02T00:00:00Z"
+	},
+	"emailid": "wdanrenolds@gmail.com",
+	"phonenumber": 8674563546,
+	"occupation": "Doctor",
+	"annualincome": 200000,
+	"address": "Pune"
+},
+{
+	"_id": {
+		"$oid": "5dbd89bc114d9131cbf5e4e5"
+	},
+	"customerid": 1104,
+	"customerpassword": "harry",
+	"firstname": "Harry",
+	"middlename": "James",
+	"lastname": "Potter",
+	"dateofbirth": {
+		"$date": {
+			"$numberLong": "-9849600000"
+		}
+	},
+	"emailid": "harrypotter@gmail.com",
+	"phonenumber": 9673578901,
+	"occupation": "Business",
+	"annualincome": 1000000,
+	"address": "Kammam"
+},
+{
+	"_id": {
+		"$oid": "5dbd89cb114d9131cbf5e4ef"
+	},
+	"customerid": 1105,
+	"customerpassword": "ronald",
+	"firstname": "Ronald",
+	"middlename": "pattrick",
+	"lastname": "Weesely",
+	"dateofbirth": {
+		"$date": "1971-11-02T00:00:00Z"
+	},
+	"emailid": "ronaldweesely@gmail.com",
+	"phonenumber": 9400975231,
+	"occupation": "Business",
+	"annualincome": 300000,
+	"address": "Hyderabad"
+},
+{
+	"_id": {
+		"$oid": "5dbd89dc114d9131cbf5e4f4"
+	},
+	"customerid": 1106,
+	"customerpassword": "hemanth",
+	"firstname": "Hemanth",
+	"middlename": "",
+	"lastname": "Kollipara",
+	"dateofbirth": {
+		"$date": "1981-09-16T00:00:00Z"
+	},
+	"emailid": "hemanthkollipara@gmail.com",
+	"phonenumber": 9444735231,
+	"occupation": "Teacher",
+	"annualincome": 400000,
+	"address": "Mumbai"
+},
+{
+	"_id": {
+		"$oid": "5dbd89f7114d9131cbf5e4fa"
+	},
+	"customerid": 1107,
+	"customerpassword": "koushik",
+	"firstname": "Koushik",
+	"middlename": "",
+	"lastname": "Kalakota",
+	"dateofbirth": {
+		"$date": "1975-05-22T00:00:00Z"
+	},
+	"emailid": "koushikkalakota@gmail.com",
+	"phonenumber": 9874563423,
+	"occupation": "Business",
+	"annualincome": 1000000,
+	"address": "Khamam"
+},
+{
+	"_id": {
+		"$oid": "5dbd8a03114d9131cbf5e504"
+	},
+	"customerid": 1108,
+	"customerpassword": "devang",
+	"firstname": "Devang",
+	"middlename": "",
+	"lastname": "Mehrothra",
+	"dateofbirth": {
+		"$date": {
+			"$numberLong": "-127526400000"
+		}
+	},
+	"emailid": "devangmeh@gmail.com",
+	"phonenumber": 9436475231,
+	"occupation": "Business",
+	"annualincome": 500000,
+	"address": "Hariyana"
+},
+{
+	"_id": {
+		"$oid": "5dbd8a0e114d9131cbf5e50a"
+	},
+	"customerid": 1109,
+	"customerpassword": "pranav",
+	"firstname": "Pranav",
+	"middlename": "",
+	"lastname": "Velluri",
+	"dateofbirth": {
+		"$date": {
+			"$numberLong": "-1814400000"
+		}
+	},
+	"emailid": "pranavvell@gmail.com",
+	"phonenumber": 7432757231,
+	"occupation": "Manager",
+	"annualincome": 600000,
+	"address": "Trivandrum"
+},
+{
+	"_id": {
+		"$oid": "5dbd8a16114d9131cbf5e50e"
+	},
+	"customerid": 1110,
+	"customerpassword": "yash",
+	"firstname": "Yash",
+	"middlename": "",
+	"lastname": "Naidu",
+	"dateofbirth": {
+		"$date": "1975-05-22T00:00:00Z"
+	},
+	"emailid": "yashnaidu@gmail.com",
+	"phonenumber": 3649234466,
+	"occupation": "Doctor",
+	"annualincome": 700000,
+	"address": "Ghaziabad"
+},
+{
+	"_id": {
+		"$oid": "5dbd8a26114d9131cbf5e513"
+	},
+	"customerid": 1111,
+	"customerpassword": "arshdeep",
+	"firstname": "Arshdeep",
+	"middlename": "",
+	"lastname": "Singh",
+	"dateofbirth": {
+		"$date": {
+			"$numberLong": "-177984000000"
+		}
+	},
+	"emailid": "arshdeepsingh@gmail.com",
+	"phonenumber": 4752967272,
+	"occupation": "software developer",
+	"annualincome": 800000,
+	"address": "Udaipur"
+},
+{
+	"_id": {
+		"$oid": "5dbd8a2f114d9131cbf5e517"
+	},
+	"customerid": 1112,
+	"customerpassword": "chitresh",
+	"firstname": "Chitresh",
+	"middlename": "",
+	"lastname": "Kansal",
+	"dateofbirth": {
+		"$date": "1979-03-13T00:00:00Z"
+	},
+	"emailid": "chitreshkansal@gmail.com",
+	"phonenumber": 9443915233,
+	"occupation": "Business",
+	"annualincome": 900000,
+	"address": "Noida"
+},
+{
+	"_id": {
+		"$oid": "5dbd8a55114d9131cbf5e523"
+	},
+	"customerid": 1113,
+	"customerpassword": "arjun",
+	"firstname": "Arjun",
+	"middlename": "",
+	"lastname": "Reddy",
+	"dateofbirth": {
+		"$date": "1975-12-12T00:00:00Z"
+	},
+	"emailid": "Arjunreddy@gmail.com",
+	"phonenumber": 9264522231,
+	"occupation": "Manager",
+	"annualincome": 100000,
+	"address": "Hyderabad"
+},
+{
+	"_id": {
+		"$oid": "5dbd8a5d114d9131cbf5e526"
+	},
+	"customerid": 1114,
+	"customerpassword": "sandeep",
+	"firstname": "Sandeep",
+	"middlename": "Vanga",
+	"lastname": "Reddy",
+	"dateofbirth": {
+		"$date": "1971-05-12T00:00:00Z"
+	},
+	"emailid": "sandeepreddy@gmail.com",
+	"phonenumber": 6848324619,
+	"occupation": "Doctor",
+	"annualincome": 200000,
+	"address": "Chennai"
+},
+{
+	"_id": {
+		"$oid": "5dbd8a83114d9131cbf5e531"
+	},
+	"customerid": 1115,
+	"customerpassword": "anand",
+	"firstname": "Anand",
+	"middlename": "",
+	"lastname": "Humar",
+	"dateofbirth": {
+		"$date": "1980-10-21T00:00:00Z"
+	},
+	"emailid": "kumaranand@gmail.com",
+	"phonenumber": 9442955231,
+	"occupation": "Teacher",
+	"annualincome": 300000,
+	"address": "Cochin"
+},
+{
+	"_id": {
+		"$oid": "5dbd8af3114d9131cbf5e546"
+	},
+	"customerid": 1116,
+	"customerpassword": "siva",
+	"firstname": "Siva",
+	"middlename": "Chaitanya",
+	"lastname": "Bharathwacha",
+	"dateofbirth": {
+		"$date": "1981-07-22T00:00:00Z"
+	},
+	"emailid": "sivachaitanya@gmail.com",
+	"phonenumber": 7893641144,
+	"occupation": "Business",
+	"annualincome": 400000,
+	"address": "Delhi"
+},
+{
+	"_id": {
+		"$oid": "5dbd8af3114d9131cbf5e549"
+	},
+	"customerid": 1117,
+	"customerpassword": "shashank",
+	"firstname": "Shashank",
+	"middlename": "",
+	"lastname": "Desai",
+	"dateofbirth": {
+		"$date": {
+			"$numberLong": "-84412800000"
+		}
+	},
+	"emailid": "shashankdesai@gmail.com",
+	"phonenumber": 9444328854,
+	"occupation": "Manager",
+	"annualincome": 500000,
+	"address": "Hyderabad"
+},
+{
+	"_id": {
+		"$oid": "5dbd8af3114d9131cbf5e54c"
+	},
+	"customerid": 11118,
+	"customerpassword": "srikruth",
+	"firstname": "Srikruth",
+	"middlename": "",
+	"lastname": "Aila",
+	"dateofbirth": {
+		"$date": "1971-12-12T00:00:00Z"
+	},
+	"emailid": "srikruthaila@gmail.com",
+	"phonenumber": 9410020231,
+	"occupation": "Doctor",
+	"annualincome": 600000,
+	"address": "Indore"
+},
+{
+	"_id": {
+		"$oid": "5dbd8af3114d9131cbf5e54f"
+	},
+	"customerid": 1119,
+	"customerpassword": "abhishek",
+	"firstname": "Abhishek",
+	"middlename": "",
+	"lastname": "Dharba",
+	"dateofbirth": {
+		"$date": "1981-01-01T00:00:00Z"
+	},
+	"emailid": "abidarbs@gmail.com",
+	"phonenumber": 6633441971,
+	"occupation": "software developer",
+	"annualincome": 700000,
+	"address": "Noida"
+},
+{
+	"_id": {
+		"$oid": "5dbd8af3114d9131cbf5e552"
+	},
+	"customerid": 1120,
+	"customerpassword": "Manas",
+	"firstname": "Manas",
+	"middlename": "",
+	"lastname": "Aggarwal",
+	"dateofbirth": {
+		"$date": "1987-02-19T00:00:00Z"
+	},
+	"emailid": "Manasaggarwal@gmail.com",
+	"phonenumber": 3142536431,
+	"occupation": "Manager",
+	"annualincome": 800000,
+	"address": "Vellore"
+}]
+
