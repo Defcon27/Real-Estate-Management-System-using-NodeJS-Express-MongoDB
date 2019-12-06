@@ -1,0 +1,42 @@
+<h3>{{viewTitle}}</h3>
+
+<form action="/owner/registrationsub" method="POST" autocomplete="off">
+    <input type="hidden" name="_id" value="{{registration._id}}">
+    <!-- <div class="form-group">
+        <label>Registration ID</label>
+        <input type="text" class="form-control" name="registrationid" placeholder="Registration ID" value="{{registration.registrationid}}">
+        <div class="text-danger">
+            {{employee.fullNameError}}</div>
+    </div> -->
+    <div class="form-group">
+        <label>Property Name</label>
+        <input type="text" class="form-control" name="propertyname" placeholder="Property Name" value="{{registration.propertyname}}">
+        <div class="text-danger">
+            {{registration.propertynameError}}</div>
+    </div>
+    <div class="form-row">
+        <div class="form-group col-md-6">
+            <label>Customer Name</label>
+            <input type="text" class="form-control" name="customername" placeholder="Customer Name" value="{{registration.customername}}">
+            <div class="text-danger">
+                {{registration.customernameError}}</div>
+        </div>
+        <div class="form-group col-md-6">
+          <label>Registration Date</label>
+          <input type="date" class="form-control" name="registrationdate" placeholder="Registration Date" value="{{registration.registrationdate}}">
+          <div class="text-danger">
+              {{registration.registrationdateError}}</div>
+        </div>
+        <div class="form-group col-md-6">
+            <label>Registration Status</label>
+            <input type="text" class="form-control" name="registrationstatus" placeholder="Registration Status" value="{{registration.registrationstatus}}">
+            <div class="text-danger">
+                {{registration.registrationstatusError}}</div>
+        </div>
+
+    </div>
+    <div class="form-group">
+        <button type="submit" class="btn btn-info">Save</button>
+        <a class="btn btn-secondary" href="/owner/home/registrationlist">View Records</a>
+    </div>
+</form>

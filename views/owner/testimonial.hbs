@@ -1,0 +1,44 @@
+<h3>{{viewTitle}}</h3>
+
+<form action="/owner/testimonialsub" method="POST" autocomplete="off">
+    <input type="hidden" name="_id" value="{{testimonial._id}}">
+    <!-- <div class="form-group">
+        <label>Loan ID</label>
+        <input type="text" class="form-control" name="loanid" placeholder="Loan ID" value="{{loans.loanid}}">
+        <div class="text-danger">
+            {{employee.fullNameError}}</div>
+    </div> -->
+    <div class="form-group">
+        <label>Customer Name</label>
+        <input type="text" class="form-control" name="customername" placeholder="Customer Name" value="{{testimonial.customername}}">
+        <div class="text-danger">
+            {{testimonial.customernameError}}</div>
+    </div>
+    <div class="form-row">
+        <div class="form-group col-md-6">
+          <label>Occupation</label>
+          <input type="text" class="form-control" name="occupation" placeholder="Occupation" value="{{testimonial.occupation}}">
+        </div>
+        <div class="form-group col-md-6">
+            <label>Property Name</label>
+            <input type="text" class="form-control" name="propertyname" placeholder="Property Name" value="{{testimonial.propertyname}}">
+            <div class="text-danger">
+                {{testimonial.propertynameError}}</div>
+        </div>
+        <div class="form-group col-md-6">
+            <label>Customer Description</label>
+            <input type="text" class="form-control" name="customerdesc" placeholder="Customer Description" value="{{testimonial.customerdesc}}">
+        </div>
+        <div class="form-group col-md-6">
+            <label>Customer Satisfaction (/10)</label>
+            <input type="text" class="form-control" name="customersat" placeholder="1-10" value="{{testimonial.customersat}}">
+            <div class="text-danger">
+                {{testimonial.customersatError}}</div>
+        </div>
+
+    </div>
+    <div class="form-group">
+        <button type="submit" class="btn btn-info">Save</button>
+        <a class="btn btn-secondary" href="/owner/home/testimoniallist">View Records</a>
+    </div>
+</form>

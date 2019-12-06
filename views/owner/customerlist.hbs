@@ -1,0 +1,48 @@
+<!-- <h3><a class="btn btn-secondary" href="/employee"><i class="fa fa-plus"></i> Create New</a> Customer List</h3> -->
+<table>
+    <tr>
+        <td>
+        <h3>Customers Records</h3>
+        </td>
+        <td style="margin: 10px; padding-left:650px;"></td>
+        <td>
+        <a class="btn btn-primary" href="/owner/home/addcustomer">Add Customer</a>
+        <a class="btn btn-primary" href="/owner/home">Home</a>
+        </td>
+    </tr>
+</table>
+
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Email</th>
+            <th>Birthday</th>
+            <th>Phone</th>
+            <th>Occupation</th>
+            <th>Income</th>
+            <th>Address</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        {{#each list}}
+        <tr>
+            <td>{{this.firstname}}</td>
+            <td>{{this.lastname}}</td>
+            <td>{{this.emailid}}</td>
+            <td>{{this.dateofbirth}}</td>
+            <td>{{this.phonenumber}}</td>
+            <td>{{this.occupation}}</td>
+            <td>{{this.annualincome}}</td>
+            <td>{{this.address}}</td>
+            <td>
+                <a class="btn btn-outline-primary btn-sm" href="/owner/home/customerupdate/{{this._id}}">Edit  </a>
+                <a class="btn btn-outline-danger btn-sm" href="/owner/home/customerdelete/{{this._id}}" onclick="return confirm('Are you sure to delete this record ?');">Delete</a>
+            </td>
+        </tr>
+        {{/each}}
+    </tbody>
+</table>

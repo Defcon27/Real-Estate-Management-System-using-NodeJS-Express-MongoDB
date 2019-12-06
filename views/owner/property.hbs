@@ -1,0 +1,81 @@
+<h3>{{viewTitle}}</h3>
+<!DOCTYPE html>
+
+<html>
+
+<!-- <head>
+    <title>Add Property</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head> -->
+
+<!-- <body class="bg-info">
+    <div class="row">
+        <div class="col-md-6 offset-md-3" style="background-color: #fff;margin-top: 25px;padding:20px;">
+            {{{body}}}
+        </div>
+    </div> -->
+<form action="/owner/propertysub" method="POST" autocomplete="off">
+    <input type="hidden" name="_id" value="{{property._id}}">
+    <!-- <div class="form-group">
+        <label>Property ID</label>
+        <input type="text" class="form-control" name="propertyid" placeholder="Property ID" value="{{employee.fullName}}">
+        <div class="text-danger">
+            {{employee.fullNameError}}</div>
+    </div> -->
+    <div class="form-group">
+        <label>Property Name</label>
+        <input type="text" class="form-control" name="propertyname" placeholder="Property Name" value="{{property.propertyname}}">
+        <div class="text-danger">
+            {{property.propertynameError}}</div>
+    </div>
+    <div class="form-row">
+        <div class="form-group col-md-6">
+          <label>Property Status</label>
+          <input type="text" class="form-control" name="propertystatus" placeholder="Property Name" value="{{property.propertystatus}}">
+          <div class="text-danger">
+              {{property.propertystatusError}}</div>
+        </div>
+        <div class="form-group col-md-6">
+            <label>Property Type</label>
+            <input type="text" class="form-control" name="propertytype" placeholder="Property Type" value="{{property.propertytype}}">
+            <div class="text-danger">
+                {{property.propertytypeError}}</div>
+        </div>
+        <div class="form-group col-md-6">
+            <label>Property BHK</label>
+            <input type="text" class="form-control" name="propertybhk" placeholder="Property BHK" value="{{property.propertybhk}}">
+            <div class="text-danger">
+                {{property.propertybhkError}}</div>
+        </div>
+        <div class="form-group col-md-6">
+            <label>Area</label>
+            <input type="text" class="form-control" name="area" placeholder="Area" value="{{property.area}}">
+            <div class="text-danger">
+                {{property.areaError}}</div>
+        </div>
+        <div class="form-group col-md-6">
+            <label>Price</label>
+            <input type="text" class="form-control" name="price" placeholder="Price" value="{{property.price}}">
+            <div class="text-danger">
+                {{property.priceError}}</div>
+        </div>
+        <div class="form-group col-md-6">
+            <label>Location</label>
+            <input type="text" class="form-control" name="location" placeholder="Location" value="{{property.location}}">
+            <div class="text-danger">
+                {{property.locationError}}</div>
+        </div>
+        <!-- <div class="form-group col-md-6">
+            <label>Owner ID</label>
+            <input type="text" class="form-control" name="ownerid" placeholder="Owner ID" value="{{employee.city}}">
+        </div> -->
+    </div>
+    <div class="form-group">
+        <button type="submit" class="btn btn-info">Save</button>
+        <a class="btn btn-secondary" href="/owner/home/propertylist">View Records</a>
+    </div>
+</form>
+<!-- </body> -->
+</html>

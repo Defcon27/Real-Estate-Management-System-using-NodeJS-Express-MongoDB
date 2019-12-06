@@ -1,0 +1,48 @@
+<h3>{{viewTitle}}</h3>
+
+<form action="/owner/cancellationsub" method="POST" autocomplete="off">
+    <input type="hidden" name="_id" value="{{cancellation._id}}">
+    <!-- <div class="form-group">
+        <label>Registration ID</label>
+        <input type="text" class="form-control" name="registrationid" placeholder="Registration ID" value="{{registration.registrationid}}">
+        <div class="text-danger">
+            {{employee.fullNameError}}</div>
+    </div> -->
+    <div class="form-group">
+        <label>Property Name</label>
+        <input type="text" class="form-control" name="propertyname" placeholder="Property Name" value="{{cancellation.propertyname}}">
+        <div class="text-danger">
+            {{cancellation.propertynameError}}</div>
+    </div>
+    <div class="form-row">
+        <div class="form-group col-md-6">
+            <label>Customer Name</label>
+            <input type="text" class="form-control" name="customername" placeholder="Customer Name" value="{{cancellation.customername}}">
+            <div class="text-danger">
+                {{cancellation.customernameError}}</div>
+        </div>
+        <div class="form-group col-md-6">
+          <label>Cancellation Date</label>
+          <input type="date" class="form-control" name="cancellationdate" placeholder="Cancellation Date" value="{{cancellation.cancellationdate}}">
+          <div class="text-danger">
+              {{cancellation.cancellationdateError}}</div>
+        </div>
+        <div class="form-group col-md-6">
+            <label>Refund</label>
+            <input type="number" class="form-control" name="amtrefund" placeholder="Refund" value="{{cancellation.amtrefund}}">
+            <div class="text-danger">
+                {{cancellation.amtrefundError}}</div>
+        </div>
+        <div class="form-group col-md-6">
+            <label>Reference Id</label>
+            <input type="text" class="form-control" name="referencenum" placeholder="Reference Id" value="{{cancellation.referencenum}}">
+            <div class="text-danger">
+                {{cancellation.referencenumError}}</div>
+        </div>
+
+    </div>
+    <div class="form-group">
+        <button type="submit" class="btn btn-info">Save</button>
+        <a class="btn btn-secondary" href="/owner/home/cancellationlist">View Records</a>
+    </div>
+</form>

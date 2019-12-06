@@ -1,0 +1,46 @@
+<!-- <h3><a class="btn btn-secondary" href="/employee"><i class="fa fa-plus"></i> Create New</a> Customer List</h3> -->
+<table>
+    <tr>
+        <td>
+        <h3>Property Records</h3>
+        </td>
+        <td style="margin: 10px; padding-left:650px;"></td>
+        <td>
+        <a class="btn btn-primary" href="/owner/home/addproperty">Add Property</a>
+        <a class="btn btn-primary" href="/owner/home">Home</a>
+        </td>
+    </tr>
+</table>
+
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Property Name</th>
+            <th>Status</th>
+            <th>Type</th>
+            <th>BHK</th>
+            <th>Area(SQ. Ft)</th>
+            <th>Price</th>
+            <th>Location</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        {{#each list}}
+        <tr>
+            <td>{{this.propertyname}}</td>
+            <td>{{this.propertystatus}}</td>
+            <td>{{this.propertytype}}</td>
+            <td>{{this.propertybhk}}</td>
+            <td>{{this.area}}</td>
+            <td>{{this.price}}</td>
+            <td>{{this.location}}</td>
+            <td>
+                <a class="btn btn-outline-primary btn-sm" href="/owner/home/propertyupdate/{{this._id}}">Edit  </a>
+                <a class="btn btn-outline-danger btn-sm" href="/owner/home/propertydelete/{{this._id}}" onclick="return confirm('Are you sure to delete this record ?');">Delete</a>
+            </td>
+        </tr>
+        {{/each}}
+    </tbody>
+</table>

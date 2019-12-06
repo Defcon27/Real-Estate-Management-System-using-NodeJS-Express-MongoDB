@@ -1,0 +1,66 @@
+<h3>{{viewTitle}}</h3>
+
+<form action="/owner/loansub" method="POST" autocomplete="off">
+    <input type="hidden" name="_id" value="{{loan._id}}">
+    <!-- <div class="form-group">
+        <label>Loan ID</label>
+        <input type="text" class="form-control" name="loanid" placeholder="Loan ID" value="{{loans.loanid}}">
+        <div class="text-danger">
+            {{employee.fullNameError}}</div>
+    </div> -->
+    <div class="form-group">
+        <label>Bank Name</label>
+        <input type="text" class="form-control" name="bankname" placeholder="Bank Name" value="{{loan.bankname}}">
+        <div class="text-danger">
+            {{loan.banknameError}}</div>
+    </div>
+    <div class="form-row">
+        <div class="form-group col-md-6">
+          <label>Rate Of Interest</label>
+          <input type="text" class="form-control" name="rate" placeholder="Rate Of Interest(%)" value="{{loan.rate}}">
+          <div class="text-danger">
+              {{loan.rateError}}</div>
+          </div>
+        <div class="form-group col-md-6">
+            <label>Number Of Installments</label>
+            <input type="text" class="form-control" name="installments" placeholder="Number Of Installments" value="{{loan.installments}}">
+        </div>
+
+        <div class="form-group col-md-6">
+            <label>Processing Fee</label>
+            <input type="text" class="form-control" name="fee" placeholder="Processing Fee" value="{{loan.fee}}">
+        </div>
+
+        <div class="form-group col-md-6">
+            <label>Tenure</label>
+            <input type="text" class="form-control" name="tenure" placeholder="Tenure" value="{{loan.tenure}}">
+            <div class="text-danger">
+                {{loan.tenureError}}</div>
+        </div>
+        <div class="form-group col-md-6">
+            <label>Maximum Amount</label>
+            <input type="text" class="form-control" name="maxamt" placeholder="Maximum Amount" value="{{loan.maxamt}}">
+            <div class="text-danger">
+                {{loan.maxamtError}}</div>
+        </div>
+
+        <div class="form-group col-md-6">
+            <label>Email ID</label>
+            <input type="email" class="form-control" name="emailid" placeholder="Email ID" value="{{loan.emailid}}">
+            <div class="text-danger">
+                {{loan.emailidError}}</div>
+        </div>
+        <!-- <div class="form-group col-md-6">
+            <label>Site Link</label>
+            <input type="text" class="form-control" name="sitelink" placeholder="Site Link" value="{{loans.sitelink}}">
+        </div> -->
+        <!-- <div class="form-group col-md-6">
+            <label>Owner ID</label>
+            <input type="text" class="form-control" name="ownerid" placeholder="Owner ID" value="{{loans.ownerid}}">
+        </div> -->
+    </div>
+    <div class="form-group">
+        <button type="submit" class="btn btn-info">Save</button>
+        <a class="btn btn-secondary" href="/owner/home/loanlist">View Records</a>
+    </div>
+</form>

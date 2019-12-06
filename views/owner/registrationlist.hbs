@@ -1,0 +1,42 @@
+<!-- <h3><a class="btn btn-secondary" href="/employee"><i class="fa fa-plus"></i> Create New</a> Customer List</h3> -->
+<table>
+    <tr>
+        <td>
+        <h3>Registration Records</h3>
+        </td>
+        <td style="margin: 10px; padding-left:600px;"></td>
+        <td>
+        <a class="btn btn-primary" href="/owner/home/addregistration">Add Registration</a>
+        <a class="btn btn-primary" href="/owner/home">Home</a>
+        </td>
+    </tr>
+</table>
+
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Property Name</th>
+            <th>Customer Name</th>
+            <th>Registration Date</th>
+            <th>Registration Status</th>
+
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        {{#each list}}
+        <tr>
+            <td>{{this.propertyname}}</td>
+            <td>{{this.customername}}</td>
+            <td>{{this.registrationdate}}</td>
+            <td>{{this.registrationstatus}}</td>
+
+            <!-- <td>
+                <a class="btn btn-outline-primary btn-sm" href="/owner/home/customerupdate/{{this._id}}">Edit  </a>
+                <a class="btn btn-outline-danger btn-sm" href="/owner/home/customerdelete/{{this._id}}" onclick="return confirm('Are you sure to delete this record ?');">Delete</a>
+            </td> -->
+        </tr>
+        {{/each}}
+    </tbody>
+</table>

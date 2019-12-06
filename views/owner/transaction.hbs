@@ -1,0 +1,54 @@
+<h3>{{viewTitle}}</h3>
+
+<form action="/owner/transactionsub" method="POST" autocomplete="off">
+    <input type="hidden" name="_id" value="{{transaction._id}}">
+    <!-- <div class="form-group">
+        <label>Registration ID</label>
+        <input type="text" class="form-control" name="registrationid" placeholder="Registration ID" value="{{registration.registrationid}}">
+        <div class="text-danger">
+            {{employee.fullNameError}}</div>
+    </div> -->
+    <div class="form-group">
+        <label>Transaction Date</label>
+        <input type="date" class="form-control" name="transactiondate" placeholder="Transaction Date" value="{{transaction.transactiondate}}">
+        <div class="text-danger">
+            {{transaction.transactiondateError}}</div>
+    </div>
+    <div class="form-row">
+        <div class="form-group col-md-6">
+            <label>Transaction Mode</label>
+            <input type="text" class="form-control" name="transactionmode" placeholder="Transaction Mode" value="{{transaction.transactionmode}}">
+            <div class="text-danger">
+                {{transaction.transactionmodeError}}</div>
+        </div>
+        <div class="form-group col-md-6">
+          <label>Bank Name</label>
+          <input type="text" class="form-control" name="bankname" placeholder="Bank Name" value="{{transaction.bankname}}">
+          <div class="text-danger">
+              {{transaction.banknameError}}</div>
+        </div>
+        <div class="form-group col-md-6">
+            <label>Amount</label>
+            <input type="number" class="form-control" name="amtpaid" placeholder="Amount" value="{{transaction.amtpaid}}">
+            <div class="text-danger">
+                {{transaction.amtpaidError}}</div>
+        </div>
+        <div class="form-group col-md-6">
+            <label>Transaction Status</label>
+            <input type="text" class="form-control" name="transactionstatus" placeholder="Transaction Status" value="{{transaction.transactionstatus}}">
+            <div class="text-danger">
+                {{transaction.transactionstatusError}}</div>
+        </div>
+        <div class="form-group col-md-6">
+            <label>Reference Id</label>
+            <input type="text" class="form-control" name="referencenum" placeholder="Reference Id" value="{{transaction.referencenum}}">
+            <div class="text-danger">
+                {{transaction.referencenumError}}</div>
+        </div>
+
+    </div>
+    <div class="form-group">
+        <button type="submit" class="btn btn-info">Save</button>
+        <a class="btn btn-secondary" href="/owner/home/transactionlist">View Records</a>
+    </div>
+</form>
