@@ -133,16 +133,14 @@ function updatecustomerRecord(req, res) {
 }
 
 router.get('/home/customerlist', (req, res) => {
-    Customer.find((err, docs) => {
-        if (!err) {
+    Customer.find({})
+        .lean()
+        .then(docs=>{
             res.render("owner/customerlist", {
                 list: docs
             });
-        }
-        else {
-            console.log('Error in retrieving list :' + err);
-        }
-    });
+        })
+        .catch(err=>console.log("Error retrieving list.", err))
 });
 
 router.get('/home/customerupdate/:id', (req, res) => {
