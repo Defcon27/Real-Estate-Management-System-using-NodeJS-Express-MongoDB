@@ -4,10 +4,11 @@ const bodyParser = require("body-parser");
 const app = express();
 const path = require('path');
 const exphbs = require('express-handlebars');
+require('dotenv').config()
 app.use(express.static("public"));
 
 const mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost:27017/realestateDB',{ useUnifiedTopology: true,useNewUrlParser: true });
+mongoose.connect(process.env.DB_PATH,{ useUnifiedTopology: true,useNewUrlParser: true });
 var db=mongoose.connection;
 db.on('error', console.log.bind(console, "connection error"));
 db.once('open', function(callback){console.log("MongoDatabase Connected Successfully");});
@@ -16,7 +17,7 @@ app.use(bodyParser.urlencoded({extended: true}));
 app.use(bodyParser.json());
 app.use(express.static("public"));
 app.set('views', path.join(__dirname, '/views/'));
-app.engine('hbs', exphbs({ extname: 'hbs', defaultLayout: 'layout', layoutsDir: __dirname + '/views/' }));
+app.engine('hbs', exphbs.engine({ extname: 'hbs', defaultLayout: 'layout', layoutsDir: __dirname + '/views/' }));
 app.set('view engine', 'hbs');
 
 //Home route
